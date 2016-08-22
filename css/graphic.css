@@ -1,0 +1,90 @@
+/*Shape styles on graphic*/
+#shape>.image {
+    width: 300px;
+    height: 300px;
+    float: left;
+    /*shape-outside: circle(50%);*/
+    shape-outside: polygon(200px 0px, 500px 600px, 0px 0px);
+    shape-image-threshold: 0.5;
+}
+
+#shape>p{
+    width: 500px;
+}
+
+/*Filter styles on graphics*/
+#filters img {
+    width: 350px;
+    height: 150px;
+    margin: 5px;
+}
+
+.grayScale {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.sepia {
+    -webkit-filter: sepia(1);
+    filter: sepia(1);
+}
+
+.saturate {
+    -webkit-filter: saturate(4);
+    filter: saturate(4);
+}
+
+.hue-rotate {
+     -webkit-filter: hue-rotate(90deg);
+     filter: hue-rotate(90deg);
+ }
+
+.invert {
+    -webkit-filter: invert(0.8);
+    filter: invert(0.8);
+}
+
+.opacity {
+    -webkit-filter: opacity(0.5);
+    filter: opacity(0.5);
+}
+
+.brightness {
+    -webkit-filter: brightness(0.5);
+    filter: brightness(0.5);
+}
+
+.contrast {
+    -webkit-filter: contrast(3);
+    filter: contrast(3);
+}
+
+.blur {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.tint {
+    -webkit-filter: sepia(1) hue-rotate(200deg);;
+    filter: sepia(1) hue-rotate(200deg);;
+}
+
+/*Masking styles on graphics*/
+
+#masking>img {
+    width: 350px;
+    height: 150px;
+}
+
+#masking>.imageMask1{
+    -webkit-mask-box-image: url("../images/Green_triangle.png") 15 stretch;
+}
+
+#masking>.imageMask2{
+    -webkit-mask-image: -webkit-grdient(linear, left top, left bottom, from(rgba(9,9,9,1)), to(rgba(9,9,9,0)));
+
+}
+
+#masking>.imageMask3{
+    -webkit-mask-image: url("../images/Green_triangle.png");
+}

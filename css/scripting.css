@@ -1,0 +1,20 @@
+#yellowBox {
+    width: 200px;
+    height:200px;
+    background-color: yellow;
+    font-family: Calibri;
+    font-size: 26px;
+    text-align: center;
+    line-height: 200px;
+}
+
+
+#redBox {
+    width: 200px;
+    height:200px;
+    background-color: red;
+    font-family: Calibri;
+    font-size: 26px;
+    text-align: center;
+    line-height: 200px;
+}

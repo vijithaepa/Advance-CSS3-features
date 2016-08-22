@@ -1,0 +1,121 @@
+.notice {
+    font-style: italic;
+    color: #443476;
+    font-weight: bold;
+}
+
+/*Flex Box Layout*/
+.flex {
+    width: 300px;
+    height: 250px;
+    border: 1px solid black;
+    font-weight: bold;
+    color: #ffffff;
+    font: 14px Arial;
+
+    display: flex;
+    flex-direction: row;
+    /*flex-direction: column;*/
+}
+
+.flex >div {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+}
+
+.flex > div:nth-child(1) {
+    background-color: #669966;
+}
+
+.flex > div:nth-child(2) {
+    background-color: #996666;
+}
+
+.flex > div:nth-child(3) {
+    background-color: #666699;
+}
+
+
+/*Grid Box Layout*/
+.grid {
+    display: grid;
+    grid-definition-columns: 20% 20%;
+    grid-template-columns: 20% 20%;
+    grid-definition-rows: 100px 100px;
+    grid-template-rows: 100px 100px;
+    background-color: gray;
+}
+
+.grid>div{
+    width: 100%;
+    height:100%;
+}
+.cell1 { background-color: #1277f3;}
+.cell2 { background-color: #9277f3;}
+.cell3 { background-color: #f27723;}
+.cell4 { background-color: #71978d;}
+
+/*Region Layout*/
+#regionLayout{
+    display: block;
+}
+
+.content {
+    flow-into: yourcontent;
+    -webkit-flow-into: yourcontent;
+}
+
+.myRegion {
+    flow-from: yourcontent;
+    -webkit-flow-from: yourcontent;
+
+    width: 150px;
+    height: 150px;
+    background-color: lightgray;
+    border: 1px solid darkgray;
+}
+
+#regions>div {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/*Exclusion Layout*/
+#exclusionLayout{
+    /*float: none !important;*/
+}
+
+#grid {
+    width: 30em;
+    height: 30em;
+    display: grid;
+    grid-definition-columns: 25% 25% 25% 25%;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-definition-rows: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    border: 1px solid darkgray;
+}
+
+#top-right {
+    grid-column: 3;
+    grid-row: 2;
+    border: 1px solid blue;
+}
+
+#bottom-left{
+    grid-column: 2;
+    grid-row: 3;
+    border: 1px solid blue;
+}
+
+.exclusion {
+    wrap-flow: both;
+}
+
+#content{
+    grid-row: 1;
+    grid-row-span: 4;
+    grid-column: 1;
+    grid-column-span: 4;
+}

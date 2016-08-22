@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modernizer</title>
+</head>
+<body>
+
+<h1>Modernizer</h1>
+<p>Modernizer test, if HTML5 features are supported by the browser. visit : </p>
+<ul><li><pre>http:P//modernizer.com</pre></li></ul>
+
+<p>Check the Console window for the results.</p>
+
+<script src="../../js/modernizr-custom.js"></script>
+<script>
+    console.log("Modernizer : ", Modernizr);
+    if(Modernizr.flexbox){
+        console.log("Flexbox is supported");
+    } else {
+        console.log("Flexbox is not supported");
+    }
+</script>
+</body>
+</html>

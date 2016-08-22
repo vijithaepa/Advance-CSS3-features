@@ -1,0 +1,119 @@
+/*Media Query styles*/
+#media-query>.queryBox{
+    width: 80%;
+    height: 250px;
+}
+
+@media only screen and (min-width: 768px) {
+    .queryBox {
+        background-color: greenyellow;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .queryBox {
+        background-color: blue;
+    }
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait){
+    .queryBox {
+        background-color: red;
+    }
+}
+
+/*Multiple Screen size styles*/
+#container img {
+    float: left;
+    padding-right: 10px;
+    width: 75%;
+}
+
+#container li{
+    padding-left: 10px;
+    font-weight: bold;
+    color: blue;
+}
+#container>h1{
+    font-size: 2.5em;
+    text-align: center;
+    font-family: Arial, Verdana, SansSerif;
+    font-weight: bold;
+}
+
+#container {
+    width: 85%;
+    margin: 0 auto;
+    background-color: rgb(230,230,230);
+}
+
+#col1, #col2 {
+    font-family: Arial, Verdana, SansSerif;
+    font-size: .85em;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 48%;
+}
+
+#col1 p:after, #col2 p:after{
+    content: " -- On 2016 August 22";
+    background-color: #71978d;
+    color: white;
+    font-weight: bolder;
+}
+
+#col1{
+    float: left;
+    overflow: auto;
+    resize: both;
+}
+
+#col2{float: right;}
+
+#form{
+    width: 100%;
+    display: block;
+    padding-top: 20px;
+    border-top: 5px solid rgb(0,0,50);
+    text-align: center;
+}
+
+@media screen and (min-width: 601px) {
+    #container img {
+        display: block;
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #container img {
+        display: block;
+        width: 100%;
+    }
+
+    #col1, #col2 {
+        float: none;
+        width: 98%;
+    }
+
+    #col1 {
+        margin-bottom: 10px;
+        border-bottom: 4px solid black;
+    }
+}
+@media screen and (max-width: 480px){
+    #container img {
+        display: none;
+    }
+
+    #col1, #col2 {
+        float: none;
+        width: 98%;
+    }
+
+    button{
+        width: 100%;
+        height: 30px;
+    }
+}
