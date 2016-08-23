@@ -7,30 +7,30 @@ To use this feature, enable "Experimental Web Platform Features" on the brwoser.
 
 ## These advance CSS3 features are discussed in this project 
   *  Layout model
-   ** Using the Flexible Box Model
-   ** Using the Grid Box
-   ** Using Regions
-   ** Using Exclusions
+   * Using the Flexible Box Model
+   * Using the Grid Box
+   * Using Regions
+   * Using Exclusions
   *  Advanced Graphics Features
-  ** Using Shapes
-  ** Using CSS Filters
-  ** Using CSS Masking
-  ** Compositing and Blending
+   * Using Shapes
+   * Using CSS Filters
+   * Using CSS Masking
+   * Compositing and Blending
   *  Responsive Web Design
-  ** Media Queries
-  ** Working with Multiple Screen Sizes
-  ** Using Modernizr
-  ** Making Images Responsive
-  ** Resizing Elements Dynamically
-  ** Generating Content using CSS
+   * Media Queries
+   * Working with Multiple Screen Sizes
+   * Using Modernizr
+   * Making Images Responsive
+   * Resizing Elements Dynamically
+   * Generating Content using CSS
   *  Managing CSS with Scripts
-  ** Accessing an Element's CSS Styles with JavaScript
-  ** Changing an Element's CSS Styles with JavaScript
-  ** Accessing CSS Style Sheets with JavaScript
-  ** Adding a CSS Style Sheet with JavaScript
-  ** Removing a CSS Style with JavaScript
-  ** Enabling or Disabling a CSS Style Sheet with JavaScript
-  ** Manipulating CSS with jQuery 
+   * Accessing an Element's CSS Styles with JavaScript
+   * Changing an Element's CSS Styles with JavaScript
+   * Accessing CSS Style Sheets with JavaScript
+   * Adding a CSS Style Sheet with JavaScript
+   * Removing a CSS Style with JavaScript
+   * Enabling or Disabling a CSS Style Sheet with JavaScript
+   * Manipulating CSS with jQuery 
   
 ## Contents : Need to be updated
 ```
@@ -74,5 +74,5 @@ To use this feature, enable "Experimental Web Platform Features" on the brwoser.
 ```
 
 ## Contents Description 
-> * GemStore.html : root file for Angular JS functionality.
-> * index.html : root for bootstrap exercises.
+> * html folder : has sub directories mathied to the sub topics.
+> * modernizr-custom.js : is an open source third party scrip library used in this discussion.
