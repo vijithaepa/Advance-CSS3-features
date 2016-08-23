@@ -3,7 +3,7 @@ This project discuss about advance usage of CSS3 functions.
 Since some of the features are still in experimental stage, those feature may not be suported by all hte browsers. 
 To use this feature, enable "Experimental Web Platform Features" on the brwoser.
 
->Ex: on <a href="chrome://flags" target="_blank">chrome://flags</a></p>
+>Ex: For Chrome browser, type this on URL : [chrome://flags](chrome://flags" target="_blank)
 
 ## These advance CSS3 features are discussed in this project 
   *  Layout model
