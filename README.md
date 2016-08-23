@@ -32,7 +32,7 @@ To use this feature, enable "Experimental Web Platform Features" on the brwoser.
    * Enabling or Disabling a CSS Style Sheet with JavaScript
    * Manipulating CSS with jQuery 
   
-## Contents : Need to be updated
+## Contents :
 ```
   root_folder
   │   .gitignore
@@ -74,5 +74,5 @@ To use this feature, enable "Experimental Web Platform Features" on the brwoser.
 ```
 
 ## Contents Description 
-> * html folder : has sub directories mathied to the sub topics.
-> * modernizr-custom.js : is an open source third party scrip library used in this discussion.
+> * html folder : has sub directories matching to the sub topics.
+> * [modernizr-custom.js](https://modernizr.com/) : is an open source third party script library used in this discussion.
